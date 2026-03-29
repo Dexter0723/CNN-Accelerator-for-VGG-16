@@ -4,15 +4,15 @@
 `define length                  226
 `define img_size                224 * 224 * 3+54   //480*360 高*寬 3 RGB 54 header
 `define padding_img_size        226 * 226        //加上zero_padding的大小
-`define layer1_kernel_path      "/home/C109152323/Dexter/NSYSU/HW5/02_tb/post_sim/conv1_kernel_hex.txt"
-`define layer2_kernel_path      "/home/C109152323/Dexter/NSYSU/HW5/02_tb/post_sim/conv2_kernel_hex.txt"
-`define layer1_bias_path        "/home/C109152323/Dexter/NSYSU/HW5/02_tb/post_sim/conv1_bias_hex.txt"
-`define layer2_bias_path        "/home/C109152323/Dexter/NSYSU/HW5/02_tb/post_sim/conv2_bias_hex.txt"
+`define layer1_kernel_path      "'/you own path'/conv1_kernel_hex.txt"
+`define layer2_kernel_path      "'/you own path'/conv2_kernel_hex.txt"
+`define layer1_bias_path        "'/you own path'/conv1_bias_hex.txt"
+`define layer2_bias_path        "'/you own path'/conv2_bias_hex.txt"
 
-`define path_img_in             "/home/C109152323/Dexter/NSYSU/HW5/02_tb/post_sim/cat224.bmp"
-`define path_Layer_1_folder     "/home/C109152323/Dexter/NSYSU/HW5/02_tb/post_sim/post_cat_after/Post_Layer_1/"
-`define path_Layer_2_folder     "/home/C109152323/Dexter/NSYSU/HW5/02_tb/post_sim/post_cat_after/Post_Layer_2/"
-`define path_sdf                "/home/C109152323/Dexter/NSYSU/HW5/04_gate_level/top.sdf"
+`define path_img_in             "'/you own path'/cat224.bmp"
+`define path_Layer_1_folder     "'/you own path'/post_cat_after/Post_Layer_1/"
+`define path_Layer_2_folder     "'/you own path'/post_cat_after/Post_Layer_2/"
+`define path_sdf                "'/you own path'/04_gate_level/top.sdf"
 
 `define img_corret_bytes        150582
 `define img_corret_pixel        50176
